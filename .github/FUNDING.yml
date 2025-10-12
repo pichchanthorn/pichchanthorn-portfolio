@@ -1,0 +1,29 @@
+# ==============================================================
+#  GitHub Funding Configuration
+#  Created by: Pich Chanthorn
+#  Purpose: Add sponsor links to support this project ❤️
+# ==============================================================
+
+# 👇 You can enable multiple funding options here
+
+# 💰 Buy Me a Coffee (recommended)
+buy_me_a_coffee: pichchanthorn # https://www.buymeacoffee.com/pichchanthorn
+
+# 💵 Patreon (optional)
+patreon: pichchanthorn # https://www.patreon.com/pichchanthorn
+
+# ☕ Ko-fi (optional)
+ko_fi: pichchanthorn # https://ko-fi.com/pichchanthorn
+
+# 💻 GitHub Sponsors (if you enable GitHub Sponsor program)
+github: pichchanthorn
+
+# 📦 Open Collective (optional for open-source orgs)
+open_collective: codewithpctn
+# ==============================================================
+# Notes:
+# - You can leave any field blank if you don’t use that platform.
+# - Once committed, GitHub will automatically display a “Sponsor” button
+#   on your repository profile linking to these funding options.
+# ==============================================================
+

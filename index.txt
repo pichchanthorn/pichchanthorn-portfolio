@@ -1,0 +1,211 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Pich Chanthorn
+Pich Chanthorn
+IT Student
+
+Show Contacts
+
+Email
+chanthornpich.kh@gmail.com
+
+Phone
++855 97 310 485
+
+Birthday
+July 26, 2006
+
+Location
+Phnom Penh, Cambodia
+
+# navbar
+
+About
+Resume
+Portfolio
+Blog
+Contact
+
+# about
+
+About me
+
+I'm Pich Chanthorn, a passionate web developer and content creator from Cambodia. I love building modern, responsive websites and sharing practical coding knowledge.
+
+My focus is clean UI, good UX, and efficient performance—turning ideas into functional projects using HTML, CSS, JavaScript, and React.
+
+Through “Code With PCTN”, I create tutorials and projects that help students learn by doing.
+
+## service
+
+What i'm doing
+
+alt = design icon
+UI/UX Design
+Designing modern and intuitive interfaces that enhance user experience and visual appeal.
+
+alt = chatgpt icon
+ChatGPT
+Prompt engineering and content generation for coding, docs, and automation workflows.
+
+alt = gemini icon
+Gemini
+Applying Google Gemini for research, writing, and coding assistance with multimodal features.
+
+alt = camera icon
+Photography
+I make high-quality photos of any category at a professional level.
+
+## testimonials
+
+Testimonials
+
+alt = Mr. Cheng Mich
+Mr. Cheng Mich
+“Chanthorn shows strong fundamentals in web programming, writes clean, readable code, and improves quickly through practice.”
+
+alt = Mr. Dan Vournpheng
+Mr. Dan Vournpheng
+“He understands core data structures and can solve problems in Python with clear logic. Good teamwork and communication.”
+
+alt = Mr. Dul Vantha
+Mr. Dul Vantha
+“Participates actively and grasps networking concepts like IP, routing, and the OSI model very well.”
+
+alt = Mr. Huor Sarin
+Mr. Huor Sarin
+“Designs solid ERDs and writes efficient SQL queries. Detail-oriented and consistent.”
+
+alt = Ms. Kry Saven
+Ms. Kry Saven
+“Creative and user-centric. Produces clean UI with clear hierarchy and good accessibility considerations.”
+
+## clients
+
+Certificates
+
+alt = Coursera Certificate 1
+alt = Coursera Certificate 2
+alt = Coursera Certificate 3
+alt = UTS Certificate (OneDrive)
+alt = BBU Project Team
+
+# resume
+
+Resume
+
+Education
+
+Build Bright University
+Nov 2024 — Nov 2028
+Bachelor’s Degree in Information Technology. Building a strong foundation in programming, networking, and problem-solving.
+Activities: Student Clubs • Skills: Problem Solving.
+
+CAMBODIA-ASEAN International Institute
+Oct 2024 — Dec 2024
+Foundation English Program focusing on grammar, writing, speaking, and listening.
+Activities: Class discussions, presentations, group projects • Skills: English Communication, Public Speaking, Writing & Grammar, Listening, Teamwork.
+
+Svay Rieng High School
+Jan 2018 — Dec 2024
+General Education with focus on Mathematics, Science, and English.
+Activities: Student Council, English Speaking Club, Volleyball Team • Skills: Communication, Leadership, Teamwork, Problem Solving, Time Management.
+
+Johnson International School
+2020 — 2022
+Chinese Language and General Education (Grade 8–10).
+Activities: Chinese Cultural Club, English Club, Student Leadership Group • Skills: Chinese Communication.
+
+Experience
+
+Founder & Developer — Code With PCTN
+2023 — Present
+Built brand for web development tutorials and open-source projects. Portfolio & demos with HTML, CSS, JavaScript, React. Contributed on GitHub.
+Skills: Front-End, JavaScript, React, Git, UI/UX.
+
+Freelance Web Developer
+2022 — 2023
+Created responsive sites for small businesses and student projects. Front-end design and basic back-end integration.
+Skills: HTML, CSS, JavaScript, Bootstrap, Responsive Design.
+
+Student Developer — Build Bright University
+2024 — Present
+Active in programming and collaborative projects.
+Focus: Programming, Networking, Databases, Problem Solving.
+Skills: C, Python, Database, Teamwork, Communication.
+
+My skills
+
+HTML & CSS
+90%
+JavaScript
+85%
+React
+75%
+Git & GitHub
+80%
+Python
+70%
+C (Fundamentals)
+65%
+Databases (SQL)
+60%
+
+# portfolio
+
+Portfolio
+
+All
+Presentations
+Projects
+
+Select category
+All
+Presentations
+Projects
+
+alt = Computer Repair Presentation
+Computer Repair Presentation
+Presentations
+
+alt = Computer Network Presentation
+Computer Network Presentation
+Presentations
+
+alt = HTML & CSS Portfolio
+HTML & CSS Portfolio (By Teacher Kit Sophal)
+Projects • Y1-S2
+
+alt = To-Do List App
+To-Do List App (GitHub)
+Projects
+
+# blog
+
+Blog
+
+alt = IT Support Job Opportunity
+Job Opportunity
+Oct 12, 2025
+Hiring Now: IT Support
+Salary: $350–$500 • Full-time • Medium Level • Bachelor’s Degree • 2+ years experience • Location: Tuol Kouk • Contact: +855 973 100 485
+
+alt = How I Built My Portfolio Website
+Development
+May 14, 2025
+How I Built My Portfolio Website
+Process and lessons learned building a responsive portfolio with HTML, CSS, and JavaScript.
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message

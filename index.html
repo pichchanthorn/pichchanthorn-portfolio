@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pich Chanthorn</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo_pctn.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/profile.png"
+              alt="Pich chanthorn"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Pich chanthorn">Pich chanthorn</h1>
+
+            <p class="title">IT Student</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <!-- Email -->
+                <a href="mailto:chanthornpich.kh@gmail.com" class="contact-link"
+                  >chanthornpich.kh@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+85597310485" class="contact-link"
+                  >+855 97 310 485</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+              <!-- Birthday -->
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2006-07-26">July 26, 2006</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Phnom Penh, Cambodia</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://web.facebook.com/chanthornpich.kh1/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://x.com/chanthornpich"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/chanthorn_pich/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm <strong>Pich Chanthorn</strong>, a passionate web developer
+              and content creator from Cambodia. I love building modern,
+              responsive websites and sharing my knowledge about coding, design,
+              and technology.
+            </p>
+
+            <p>
+              My focus is on creating clean, user-friendly interfaces that not
+              only look great but also perform efficiently. I enjoy turning
+              creative ideas into functional projects — from front-end
+              development to UX optimization.
+            </p>
+
+            <p>
+              Through
+              <a href="https://t.me/codewithpctn" target="_blank"
+                >Code With PCTN</a
+              >
+              , I aim to inspire and help others learn coding in a fun and
+              practical way.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <!-- 1) UI/UX Design -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="assets/images/Canva_Logo.png"
+                    alt="Logo"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                  <p class="service-item-text">
+                    Designing modern and intuitive interfaces that enhance user
+                    experience and visual appeal.
+                  </p>
+                </div>
+              </li>
+
+              <!-- ChatGPT -->
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/ChatGPT_Logo.jpg"
+                    alt="ChatGPT  icon"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">ChatGPT</h4>
+
+                  <p class="service-item-text">
+                    Prompt engineering, content generation, and automation for
+                    coding, documentation, and productivity workflows.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/gemini_logo.jpg"
+                    alt="Gemini"
+                    width="39"
+                  />
+                </div>
+                <!-- ​Gemini -->
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Gemini</h4>
+
+                  <p class="service-item-text">
+                    Exploring the power of Google Gemini for AI-driven research,
+                    creative writing, and intelligent coding assistance —
+                    integrating multimodal capabilities into real-world web
+                    projects.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Photography_logo.jpg"
+                    alt="Photography"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I make high-quality photos of any category at a professional
+                    level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <!-- 1) Teacher. Cheng Mich — Web Programming (Monday) -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Teacher_Cheng_Mich.jpg"
+                      alt="Teacher. Cheng Mich"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Teacher. Cheng Mich
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      “Chanthorn shows strong fundamentals in web programming,
+                      writes clean, readable code, and improves quickly through
+                      practice.”
+                      <br />
+                      —
+                      <strong
+                        >Teacher. Cheng Mich, Web Programming (Monday)</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 2) Teacher. Dan Vournpheng — Data Structures & Algorithms Using Python (Tuesday) -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Teacher_Dan_Vournpheng.jpg"
+                      alt="Teacher. Dan Vournpheng"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Teacher. Dan Vournpheng
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      “He understands core data structures and can solve
+                      problems in Python with clear logic. Good teamwork and
+                      communication.”
+                      <br />
+                      —
+                      <strong
+                        >Teacher. Dan Vournpheng, DSA Using Python
+                        (Tuesday)</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 3) Teacher. Dul Vantha — Computer Network (Wednesday) -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Teacher_Dul_Vantha.jpg"
+                      alt="Teacher. Dul Vantha"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Teacher. Dul Vantha
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      “Chanthorn participates actively and grasps networking
+                      concepts like IP, routing, and OSI very well.”
+                      <br />
+                      —
+                      <strong
+                        >Teacher. Dul Vantha, Computer Network
+                        (Wednesday)</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 4) Teacher. Huor Sarin — Data Modeling & Relational Database (Thursday) -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Teacher_Hour_Sarin.jpg"
+                      alt="Mr. Huor Sarin"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Mr. Huor Sarin
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      “He designs solid ERD diagrams and writes efficient SQL
+                      queries. Detail-oriented and consistent.”
+                      <br />
+                      —
+                      <strong
+                        >Teacher. Hour Sarin, Data Modeling & RDB
+                        (Thursday)</strong
+                      >
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <!-- 5) Ms. Kry Saven — UX/UI Design (Friday) -->
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/Teacher_Kry_Saven.jpg"
+                      alt="Ms. Kry Saven"
+                      width="50"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Ms. Kry Saven
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      “Creative and user-centric. Chanthorn produces clean UI
+                      with clear hierarchy and good accessibility
+                      considerations.”
+                      <br />
+                      — <strong>Ms. Sovvan, UX/UI Design (Friday)</strong>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Modal (រក្សាទ្រង់ទ្រាយដើម; default បង្ហាញ Entry ដំបូង) -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/Teacher_Cheng_Mich.jpg"
+                    alt="Teacher. Cheng Mich"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>
+                  Teacher. Cheng Mich
+                </h4>
+                <time datetime="September 1, 2025">September 1, 2025</time>
+
+                <div data-modal-text>
+                  <p>
+                    “Chanthorn shows strong fundamentals in web programming and
+                    writes clean, readable code. He is proactive and improves
+                    quickly through practice.”
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Certificates</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a
+                  href="https://coursera.org/share/cc3d66a438645553b8a226fb58c59758"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Certificate1.jpg"
+                    alt="Certificate"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://coursera.org/share/b08ee27111e1686b17aca35aa1750cd8"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Certificate2.jpg"
+                    alt="Certificate"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://coursera.org/share/51b358df8dec7530305ae2004bbbc57f"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Certificate3.jpg"
+                    alt="Certificate"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a
+                  href="https://1drv.ms/i/c/618BDBF161526DA6/EcWPlwj7NYBAoayYbL9OD3ABbpUFI4nwgAhPxCowOWokhw?e=423gVC"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/Certificate_Pech_Chanthon_UTS.pdf_page-0001.jpg"
+                    alt="Certificate"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="https://t.me/bbuproject_team" target="_blank">
+                  <img
+                    src="./assets/images/Logo_bbu_project.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Build Bright University</h4>
+                <span>Nov 2024 — Nov 2028</span>
+                <p class="timeline-text">
+                  Bachelor's Degree in Information Technology. Currently
+                  pursuing a Bachelor's Degree focusing on building a strong
+                  foundation in programming, networking, and problem-solving.
+                  <br /><br />
+                  <strong>Activities and societies:</strong> Student Clubs
+                  <br />
+                  <strong>Skills:</strong> Problem Solving
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  CAMBODIA-ASEAN International Institute
+                </h4>
+                <span>Oct 2024 — Dec 2024</span>
+                <p class="timeline-text">
+                  Foundation English Program in English Language and
+                  Communication. Successfully completed the Foundation English
+                  Program focusing on English grammar, writing, speaking, and
+                  listening skills.
+                  <br /><br />
+                  <strong>Activities and societies:</strong> Class discussions,
+                  English presentations, group projects, and writing practice.
+                  <br />
+                  <strong>Skills:</strong> English Communication · Public
+                  Speaking · Writing & Grammar · Listening Comprehension ·
+                  Teamwork
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Svay Rieng High School</h4>
+                <span>Jan 2018 — Dec 2024</span>
+                <p class="timeline-text">
+                  General Education, Academic Program. Completed high school
+                  education with a focus on Mathematics, Science, and English.
+                  <br /><br />
+                  <strong>Activities and societies:</strong> Student Council,
+                  English Speaking Club, Volleyball Team.
+                  <br />
+                  <strong>Skills:</strong> Communication · Leadership · Teamwork
+                  · Problem Solving · Time Management
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Johnson International School
+                </h4>
+                <span>2020 — 2022</span>
+                <p class="timeline-text">
+                  High School Diploma in Chinese Language and General Education.
+                  Studied from Grade 8 to Grade 10 with a focus on Chinese
+                  language and cultural understanding through bilingual
+                  learning.
+                  <br /><br />
+                  <strong>Activities and societies:</strong> Chinese Cultural
+                  Club, English Club, Student Leadership Group.
+                  <br />
+                  <strong>Skills:</strong> Chinese Communication
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Founder & Developer — Code With PCTN
+                </h4>
+                <span>2023 — Present</span>
+                <p class="timeline-text">
+                  Established a personal brand
+                  <strong>“Code With PCTN”</strong> focused on web development,
+                  software tutorials, and open-source projects. Developed
+                  multiple projects shared on GitHub, emphasizing modern web
+                  technologies and best practices in coding and UI/UX design.
+                  <br /><br />
+                  <strong>Key Achievements:</strong>
+                  • Built and maintained educational coding content. • Created
+                  personal portfolio and project demos using HTML, CSS,
+                  JavaScript, and React. • Contributed to open-source
+                  repositories and collaborated with developers online.
+                  <br />
+                  <strong>Skills:</strong> Front-End Development · JavaScript ·
+                  React · Git · UI/UX Design
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+                <span>2022 — 2023</span>
+                <p class="timeline-text">
+                  Worked as a freelance developer creating responsive and
+                  user-friendly websites for small businesses and student
+                  projects. Specialized in front-end design and back-end
+                  integration using modern web tools.
+                  <br /><br />
+                  <strong>Key Projects:</strong>
+                  • Developed landing pages and portfolio websites for clients.
+                  • Integrated APIs and optimized performance for better UX.
+                  <br />
+                  <strong>Skills:</strong> HTML · CSS · JavaScript · Bootstrap ·
+                  Responsive Design
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Student Developer — Build Bright University
+                </h4>
+                <span>2024 — Present</span>
+                <p class="timeline-text">
+                  Pursuing a Bachelor's Degree in Information Technology while
+                  actively engaging in programming and collaborative projects.
+                  Participates in student technology clubs and contributes to
+                  coding challenges.
+                  <br /><br />
+                  <strong>Focus Areas:</strong> Programming, Networking,
+                  Database Management, and Problem Solving.
+                  <br />
+                  <strong>Skills:</strong> C · Python · Database · Teamwork ·
+                  Communication
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML & CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git & GitHub</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C (Fundamentals)</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Databases (SQL)</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+          <!-- 
+          - ## Project
+        -->
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Presentations</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Projects</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Presentations</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Projects</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <!-- Example Presentation -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="presentations"
+              >
+                <a
+                  href="https://www.canva.com/design/DAGvHihJiHs/FkUeMfRMrQm9wiuZs2gtcA/view?utm_content=DAGvHihJiHs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2faf1f8f01"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/2_Presentation_Computer_Repair.jpg"
+                      alt="Computer Network"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Computer Network Presentation</h3>
+                  <p class="project-category">Presentations</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="presentations"
+              >
+                <a
+                  href="https://www.canva.com/design/DAGzblh00sQ/g107Q0pjsl65_PeVGf6QtQ/view?utm_content=DAGzblh00sQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h88a11ce9f5"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/1_Precentation_Computer Network.jpg"
+                      alt="Computer Network"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Computer Network Presentation</h3>
+                  <p class="project-category">Presentations</p>
+                </a>
+              </li>
+
+              <!-- Example Project -->
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="projects"
+              >
+                <a
+                  href="https://www.canva.com/design/DAGtGcGjHrk/ScKWGg7lgu3r9bKYvJxpKg/view?utm_content=DAGtGcGjHrk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6b8bc68e5c"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/1_project.png"
+                      alt="Portfolio Website"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">BY Teacher Kit Sophal</h3>
+                  <p class="project-category">Projects Y1-S2</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="projects"
+              >
+                <a
+                  href="https://github.com/pichchanthorn/todo-app"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="#"
+                      alt="សូមអភ័យទោស មិនមាន Project ទេ!"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3
+                    style="font-family: Khmer OS Muol Light"
+                    class="project-title"
+                  >
+                    មិនទាន់មាន Project ទេ!
+                  </h3>
+                  <!-- <p class="project-category">Projects</p> -->
+                  <!-- <p style="font-family: Khmer OS Muol Light">
+                    សូមអភ័យទោស មិនមាន Project ទេ!
+                  </p> -->
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <!-- Post 1 -->
+              <li class="blog-post-item">
+                <a
+                  href="https://www.canva.com/design/DAGtwbHshPc/I_qTQmb3brT2NzgDkGNocA/view?utm_content=DAGtwbHshPc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfbcd5fd9e1"
+                  target="_blank"
+                >
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog_1.png"
+                      alt="IT Support Job Opportunity"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Job Opportunity</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-10-12">Oct 12, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Hiring Now: IT Support</h3>
+
+                    <p class="blog-text">
+                      Salary: $350 ~ $500 • Full-time • Medium Level •
+                      Bachelor’s Degree • 2+ years experience
+                      <br />
+                      Location: Tuol Kouk • Contact: +855 973 100 485
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Post 2 -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Post 3 -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Post 4 -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Post 5 -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- Post 6 -->
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+                      <span class="dot"></span>
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1857.659139100646!2d104.88259376685875!3d11.572033136597984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31095130ff8538af%3A0x781a871e72e881!2sBuild%20Bright%20University%20Sen%20Sok!5e1!3m2!1sen!2skh!4v1760277093441!5m2!1sen!2skh"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="mailto:chanthornpich22@gmail.com"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
