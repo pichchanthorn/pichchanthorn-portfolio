@@ -2026,3 +2026,86 @@ textarea.form-input::-webkit-resizer {
     max-width: 700px;
   }
 }
+/* ===== Theme Toggle – utility ===== */
+.no-theme-transition * {
+  transition: none !important;
+}
+
+/* ប៊ូតុង Toggle */
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid var(--jet);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+.theme-toggle .icon-moon {
+  display: none;
+}
+.theme-toggle.is-dark .icon-sun {
+  display: none;
+}
+.theme-toggle.is-dark .icon-moon {
+  display: inline-block;
+}
+
+/* ===== Light Theme (ថ្ងៃ) – override variables ===== */
+html[data-theme="light"] {
+  /* ជំនួសពណ៌សំខាន់ៗ (Mapping ពី Dark → Light) */
+  --smoky-black: #f6f8fb;
+  --eerie-black-1: #ffffff;
+  --eerie-black-2: #ffffff;
+  --onyx: #e7ecf3; /* surfaces/subtle */
+  --jet: #d9e0ea; /* borders */
+  --white-1: #0f172a; /* text on light */
+  --white-2: #111827;
+  --light-gray: #374151;
+  --light-gray-70: rgba(55, 65, 81, 0.7);
+
+  /* Gradients (បំលែងទៅភ្លឺ) */
+  --bg-gradient-onyx: linear-gradient(to bottom right, #ffffff 3%, #f3f6fa 97%);
+  --bg-gradient-jet: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.04) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    #ffffff;
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    #fde68a 0%,
+    rgba(253, 230, 138, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+      135deg,
+      rgba(253, 230, 138, 0.25) 0%,
+      rgba(253, 230, 138, 0) 60%
+    ),
+    #ffffff;
+  --border-gradient-onyx: linear-gradient(
+    to bottom right,
+    #e5e7eb 0%,
+    rgba(229, 231, 235, 0) 50%
+  );
+  --text-gradient-yellow: linear-gradient(to right, #f59e0b, #fbbf24);
+}
+
+/* ស្របតាម Theme: surfaces + navbar transparency ស្រាល */
+html[data-theme="light"] body {
+  background: var(--smoky-black);
+}
+html[data-theme="light"] .sidebar,
+html[data-theme="light"] article {
+  background: var(--eerie-black-2);
+  border-color: var(--jet);
+}
+html[data-theme="light"] .navbar {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+/* Map (នៅទំព័រ Contact): បិទ invert សម្រាប់ Light */
+html[data-theme="light"] .mapbox iframe {
+  filter: none;
+}

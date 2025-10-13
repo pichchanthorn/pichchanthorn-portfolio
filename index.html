@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+  <!-- default យប់ ដើម្បីត្រូវនឹង UI បច្ចុប្បន្ន -->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>Pich Chanthorn</title>
 
     <!--
@@ -191,6 +193,27 @@
 
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+            <li class="navbar-item">
+              <button
+                class="navbar-link theme-toggle"
+                id="themeToggle"
+                aria-label="Toggle color theme"
+                title="Toggle color theme"
+                data-theme-toggle
+              >
+                <ion-icon
+                  class="icon-sun"
+                  name="sunny-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <ion-icon
+                  class="icon-moon"
+                  name="moon-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+                <span class="toggle-text">Night</span>
+              </button>
             </li>
           </ul>
         </nav>
