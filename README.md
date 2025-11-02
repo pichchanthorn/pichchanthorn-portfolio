@@ -6,10 +6,7 @@
 
 > A modern, responsive personal portfolio website created by **Pich Chanthorn (Code With PCTN)** — built with **HTML, CSS, and JavaScript**.
 
-## 🖥️ Demo
-
-![Portfolio Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")  
-![Portfolio Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+ 
 
 ## ⚙️ Prerequisites
 
